@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Our Store</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">        
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-12 d-flex justify-content-center"><h1>Our <b>Store</b></h1></div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                
+                <button type="button" class="btn btn-outline-dark col-md-1 offset-sm-1" id="allShow">All</button>
+                <button type="button" class="btn btn-outline-dark col-md-2 offset-sm-1 toggleButton" data-target="div2">Cup Cakes</button>
+                <button type="button" class="btn btn-outline-dark col-md-1 offset-sm-1 toggleButton" data-target="div3">Cakes</button>
+                <button type="button" class="btn btn-outline-dark col-md-1 offset-sm-1 toggleButton" data-target="div1">Sweets</button>
+                <button type="button" class="btn btn-outline-dark col-md-1 offset-sm-1 toggleButton" data-target="div4">Doughnuts</button>
+            
+            </div>
+            
+
+            <div class="row" style="margin-top: 30px;">
+                <input class="form-control mr-sm-2 col-md-7 offset-sm-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 col-md-2" type="submit">Search</button>
+            </div>
+
+
+            <div class="card-deck">
+                <div id="div1" class="toggleDiv">
+                  <img src="images/sweet.jpg" class="card-img-top" style="height:300px" alt="...">
+                  <div class="card-footer">
+                    <h4>Sweet Item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp; $5</h4>
+                  </div>
+                </div>
+                <div id="div2" class="toggleDiv">
+                  <img src="images/cupcake.jpg" class="card-img-top" style="height:300px" alt="...">
+                  <div class="card-footer">
+                    <h4>Cupcake Item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp; $5</h4>
+                  </div>
+                </div>
+                <div id="div3" class="toggleDiv">
+                  <img src="images/cake.jpg" class="card-img-top" style="height:300px" alt="...">
+                  <div class="card-footer">
+                    <h4>Cake Item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp; $5</h4>
+                  </div>
+                </div>
+                <div id="div4" class="toggleDiv">
+                    <img src="images/doughnuts.jpg" class="card-img-top" style="height:300px" alt="...">
+                    <div class="card-footer">
+                      <h4>Doughnuts Item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5</h4>
+                    </div>
+                  </div>
+              </div>
+
+
+        </div>
+
+
+    </body>
+</html>
